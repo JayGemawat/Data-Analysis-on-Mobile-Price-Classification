@@ -16,7 +16,7 @@ Streamlit Application: Interactive web interface for real-time mobile price pred
 
 Clone the repository:
 
-git clone https://https://github.com/JayGemawat/mobile-price-classification.git
+git clone https://github.com/JayGemawat/Data-Analysis-on-Mobile-Price-Classification.git)
 cd mobile-price-classification
 
 Install required dependencies:
