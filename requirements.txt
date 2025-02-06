@@ -4,3 +4,7 @@ numpy
 scikit-learn
 pickle-mixin
 matplotlib
+seaborn
+opencv-python
+mediapipe
+pyautogui
