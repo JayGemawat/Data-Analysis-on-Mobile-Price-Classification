@@ -4,11 +4,15 @@ import joblib
 import matplotlib.pyplot as plt
 import seaborn as sns
 import plotly.express as px
+import os
 
-# Define paths to your local files
-train_file_path =r"C:\Users\Diya Patel\Desktop\Data-Analysis-on-Mobile-Price-Classification\train.csv" # Adjust this path if necessary
-test_file_path = r"C:\Users\Diya Patel\Desktop\Data-Analysis-on-Mobile-Price-Classification\test.csv"    # Adjust this path if necessary
-model_file_path =r"C:\Users\Diya Patel\Desktop\Data-Analysis-on-Mobile-Price-Classification\model.pkl"  # Adjust this path if necessary
+# Get the base directory where app2.py is located
+base_path = os.path.dirname(os.path.abspath(__file__))
+
+# Set file paths relative to the base directory
+train_file_path = os.path.join(base_path, "train.csv")
+test_file_path = os.path.join(base_path, "test.csv")
+model_file_path = os.path.join(base_path, "model.pkl")
 
 # Streamlit App Title
 st.title("Mobile Price Classification App")
