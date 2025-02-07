@@ -4,6 +4,11 @@ Project Description
 
 This project uses machine learning techniques to classify mobile phones into price ranges based on their features. It includes data preprocessing, implementation of various classification algorithms, and deployment of a Streamlit-based web application for real-time predictions.
 
+## Live Demo  
+
+👉 Check out the live project here: [data-analysis-on-mobile-price.onrender.com](https://data-analysis-on-mobile-price.onrender.com/)
+
+
 **Features**
 
 Jupyter Notebook: Includes detailed data preprocessing, exploratory data analysis (EDA), and model training steps.
